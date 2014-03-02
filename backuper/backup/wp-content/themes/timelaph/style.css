@@ -1,0 +1,240 @@
+/*
+THEME NAME: Timelaph
+THEME URI: http://upthemes.com/themes/timelaph/
+DESCRIPTION: Park your domain in style with WordPress and Google FeedBurner.
+VERSION: 1.2.1
+AUTHOR:  UpThemes
+AUTHOR URI: http://upthemes.com
+*/
+
+/* --------------------------------------------------------------
+
+   Reset default browser CSS.
+
+   Based on work by Eric Meyer:
+   * meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+
+-------------------------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body {
+  line-height: 1.5;
+  background: #fff;
+  margin:0;
+}
+
+/* Tables still need 'cellspacing="0"' in the markup. */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+a img { border: none; }
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body{
+	background: #232428 url("images/stars_bg.png") top left repeat;
+	font: 14px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	color: rgba(255,255,255,0.5);
+}
+
+input, textarea, button{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a,
+a:link,
+a:visited{
+	color: #eee;
+	color: rgba(255,255,255,0.8);
+	text-decoration: none;
+}
+
+a:hover,
+a:active{
+	color: white;
+	color: rgba(255,255,255,1);
+}
+
+#container{
+	margin: 120px auto 0;
+	width: 300px;
+	padding: 0;
+}
+
+#branding{
+	margin: 0 auto 20px;
+	text-align: center;
+}
+
+form,
+#container p{
+	margin-bottom: 1em;
+}
+
+#container p{
+    text-shadow: 0 -1px 0 rgb(0,0,0);
+    -moz-text-shadow: 0 -1px 0 rgb(0,0,0);
+    -webkit-text-shadow: 0 -1px 0 rgb(0,0,0);
+}
+
+label,
+input{
+    color: #8d8d8d;
+    padding: 8px;
+    width: 300px;
+    cursor: text;
+    line-height: 1em;
+}
+
+label{
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+input{
+    border: none;
+    vertical-align: middle;
+    margin-bottom: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: -webkit-gradient(linear, left top, left bottom,
+								from(rgba(255,255,255,0.20)),
+								to(rgba(255,255,255,0.14)),
+								color-stop(0.5,rgba(255,255,255,0.13)),
+								color-stop(0.5, rgba(255,255,255,0.12)));
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.18) 0%,
+    									  rgba(255,255,255,0.11) 50%,
+    									  rgba(255,255,255,0.11) 51%,
+    									  rgba(255,255,255,0.10) 100%);
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+    -webkit-box-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+    -moz-box-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+    -moz-text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+    -webkit-text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+}
+
+input:active,
+input:focus{
+	outline: none;
+	background: -webkit-gradient(linear, left top, left bottom,
+								from(rgba(255,255,255,0.22)),
+								to(rgba(255,255,255,0.16)),
+								color-stop(0.5,rgba(255,255,255,0.15)),
+								color-stop(0.5, rgba(255,255,255,0.14)));
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.22) 0%,
+										  rgba(255,255,255,0.16) 50%,
+										  rgba(255,255,255,0.15) 51%,
+										  rgba(255,255,255,0.14) 100%);
+}
+
+button{
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 14px;
+    line-height: 1em;
+    outline: 0;
+	font-weight: bold;
+	margin: 0 auto;
+    border: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: -webkit-gradient(linear, left top, left bottom,
+								from(#ff8d00),
+								to(#ff6400),
+								color-stop(0.5,#ff6800),
+								color-stop(0.5,#ff5d00));
+    background: -moz-linear-gradient(top, #ff8d00 0%,
+    									  #ff6800 50%,
+    									  #ff5d00 51%,
+    									  #ff6400 100%);
+    box-shadow: 0 -1px 0 #ffae00;
+    -webkit-box-shadow: 0 -1px 0 #ffae00;
+    -moz-box-shadow: 0 -1px 0 #ffae00;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+    -moz-text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+    -webkit-text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+    display: block;
+}
+
+button:active{
+    padding: 2px 8px 4px 8px;
+    outline: 0;
+	background: -webkit-gradient(linear, left top, left bottom,
+								from(#ff8d00),
+								to(#ff6400),
+								color-stop(0.5,#ff6800),
+								color-stop(0.5,#ff5d00));
+    background: -moz-linear-gradient(top, #ff8d00 0%,
+    									  #ff6800 50%,
+    									  #ff5d00 51%,
+    									  #ff6400 100%);
+}
+
+#container p.desc{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* =Images
+-------------------------------------------------------------- */
+
+/*  Only added for the sake of compliance with Themes Directory   */
+
+.entry-content img { margin: 0 0 18px 0; max-width:100%; }
+
+img.alignleft,img.align-left {
+	float: left;
+	margin-right:20px;
+}
+img.alignright,img.align-right {
+	display: block;
+	float: right;
+	margin-left:20px;
+}
+img.center, img.centered {
+	margin: 0 auto;
+	display: block;
+	float: none;
+	clear: both;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.wp-smiley { /* Prevent the smileys from breaking line-height */
+	max-height:12px;
+}

@@ -1,0 +1,209 @@
+*{outline:none;}
+.all,.none{float:left;color:#405164;margin:0 0 10px 10px;cursor:pointer;}
+.delemail{cursor:pointer;color:#cc3e3e;}
+.main, .front, .blog, .contact, .advertising, .roomsetingsspan, .roomslistspan, .reservationspan, .emailspan, .portfolio{
+position:relative;
+top:-30px;
+display:block;
+margin:0;
+}
+.confirm, .unconfirm, .delete{
+cursor:pointer;
+}
+.box{
+width:31%;
+float:left;
+margin:0 5px 0 0;
+background:#fefefe;
+padding:10px 0 0 10px;
+border:1px solid #eeeded;
+}
+
+
+#wpbody-content{
+	min-height:900px;
+}
+#container{
+	 width:750px;
+	 margin:0px auto;
+	 text-align:left;
+	 border:1px solid #c8c8c8;
+	 background:#fff;
+}
+
+#header {
+	height: 170px;
+	width:750px;
+	 /*border:1px solid #a5a5a5;*/
+	background:transparent url(img/knight.png) no-repeat;
+	 margin:0px auto;
+}
+#header-top{
+background:transparent url(img/header.jpg) repeat-x;
+width:750px;
+height:54px;
+position:relative;
+top:65px;
+left:-1px;
+border-left:1px solid #405164;
+border-right:1px solid #405164;
+z-index:-1;
+}
+
+#header h2{ padding:10px;}
+#menu ,#mainmenu, #menurooms{
+background:#f0f0f0 url(img/knight-shield.png) no-repeat;
+position:relative;
+top:53px;
+left:-1px;
+width:730px;
+height:55px;
+border-left:1px solid #c8c8c8;
+border-right:1px solid #c8c8c8;
+padding:0px 0 0 20px;
+}
+#menu li,#mainmenu li,#menurooms li{
+cursor: pointer;
+cursor: hand;
+color:#888888;
+margin:0 45px 0 0;
+float:left;
+text-shadow:#fafafa 0 1px 0;
+font-family:Helvetica Neue;
+}
+
+.theme{
+color:#fff;
+width:140px;
+position:relative;
+float:left;
+top:30px;
+height:20px;
+padding:0 0 0 130px;
+font-family:Helvetica;
+font-size:17px;
+font-weight:bold;
+
+}
+.theme-adminitration{
+color:#fff;
+width:160px;
+position:relative;
+float:left;
+top:29px;
+height:20px;
+font-family:Georgia;
+font-size:12px;
+font-style:italic;
+}
+.theme-version{
+color:#fff;
+float:right;
+position:relative;
+top:30px;
+font-family:Helvetica Neue;
+font-weight:bold;
+font-size:10px;
+padding:0 20px 0 0;
+}
+
+#save{width:105px;background:url(img/button.png) no-repeat;
+height:32px;-moz-border-radius:0;border:0;padding:5px 10px;}
+.left_content #save{position:relative;right:-190px;float:right}
+#app_title{
+	float:left;
+	width:736px;
+	/*height: 35px;*/
+	padding:7px;
+	background:transparent url(img/bg_titlex.gif) repeat-x;
+	border-top:1px solid #a5a5a5;
+	border-bottom:1px solid #a5a5a5;
+}
+
+#app_subtitle{
+	float:left;
+	width:736px;
+	/*height: 35px;*/
+	padding:7px;
+	background:transparent url(img/bg_title.gif) repeat-x;
+	border-top:1px solid #a5a5a5;
+	border-bottom:1px solid #a5a5a5;
+}
+
+#app_title_save{
+	width:100px;
+	float:right;
+	position:relative;
+	top:-11px;
+	right:15px;
+	
+	}
+#content {
+	float:left;
+	
+}
+.left_content{float:left; /*height:120px;*/ width:525px; padding:10px; }
+.right_content{float:right; color:#686868; font-size:12px; width:180px;  padding:25px 10px 10px 10px ; 
+	-moz-border-radius: 10px 0px 10px 0px;  /* Mozilla */
+   -webkit-border-radius: 10px 0px 10px 0px; /* Webkit */
+   border-radius: 10px 0px 10px 0px;}
+.small { width:300px;}
+
+span {margin:5px;}
+
+#adminfooter{
+	width:750px;
+	background-color:#f0f0f0;
+	height:50px;
+	float:left;
+	position:relative;
+	top:30px;
+	display:block;
+
+}
+
+.brought, .themeskingdomabout, .themeskingdom{
+display:block!important;
+float:left;
+}
+.themeskingdom{
+background:transparent url(img/tkfooter.jpg) no-repeat;
+width:123px;
+height:20px;
+}
+.brought{
+color:#c5c5c5;
+font-family:Georgia;
+font-size:12px;
+}
+.themeskingdomabout{
+font-family:Georgia;
+font-style:italic;
+color:#686868;
+}
+
+.onestyle{
+width:240px;float:left;height:190px;
+}
+.onestyle input{
+	margin:74px 4px 0 2px;
+}
+
+.screen{
+	width:213px;height:190px;float:left;
+}
+.redscreen{
+	background:transparent url(screens/red.jpg) no-repeat;
+}
+.bluescreen{
+	background:transparent url(screens/blue.jpg) no-repeat;
+}
+.brownscreen{
+	background:transparent url(screens/brown.jpg) no-repeat;
+}
+.greenscreen{
+	background:transparent url(screens/green.jpg) no-repeat;
+}
+.darkgreyscreen{
+	background:transparent url(screens/darkgrey.jpg) no-repeat;
+}

@@ -1,0 +1,71 @@
+body
+{
+
+background-color: #88e4ff;
+
+
+
+}
+
+
+#hoved
+{
+margin-top: 2px;
+margin-left: auto;
+margin-right: auto;	
+background-color:#a8ff90;
+width: 1100px;
+height: 1000px;	
+border-radius: 20px;
+}
+
+#top
+
+{
+border:	1px solid black;
+width: 1000px;
+height: 100px;
+border-color:black;
+border-style: thin;
+border-color: black;
+background-color:#ffffff;
+float:top;
+margin-left: 50px;
+margin-right: auto;
+margin-top: 10px;
+position: absolute;
+border-radius: 20px;
+}
+
+#indhold
+
+{
+border: 1px solid black;
+border-color: black;
+position: absolute;
+margin-top: 150px;
+margin-left: 50px;
+margin-right: auto;
+float: bottom;
+width: 1000px;
+height:500px;
+background-color: #e5e5e5;
+border-radius: 20px;
+
+}
+
+
+#bottom
+{
+
+
+
+}
+
+h1
+{
+
+font-family: fantasy, serif;
+
+
+}

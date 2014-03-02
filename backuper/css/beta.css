@@ -1,0 +1,35 @@
+body
+{
+background-color: white;
+
+}
+
+.phoneinfobox
+{
+overflow: hidden;
+width: 100%;
+height: 600px;
+
+background-color: white;
+float:left;
+}
+.user
+{
+position:relative;
+margin-top:300px;
+margin-right:37.5%;
+}
+
+.phonedata
+{
+
+height: 300px;
+width:300px;
+float:top;
+margin:auto;
+}
+.phonemenu
+{
+
+	float:left;
+}

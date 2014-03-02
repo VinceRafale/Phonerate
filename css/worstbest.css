@@ -1,0 +1,20 @@
+  	[data-href] {
+    		cursor: pointer;
+    	}
+    	.rating-row {
+    		margin-bottom: 8px;
+    	}
+		.rating {
+		  unicode-bidi: bidi-override;
+		  direction: rtl;
+		  text-align: left;
+		}
+		.rating > span {
+		  display: inline-block;
+		  position: relative;
+		  width: 1.1em;
+		}
+		.rating > span.checked:before {
+			content: "\2605";
+			position:absolute;
+		}

@@ -1,0 +1,118 @@
+#nav.affix {
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    
+}
+
+.navbar-default
+{
+background-color: #2A5B7C;
+
+}
+.btn-primary{
+	
+	background-color: #2A5B7C;
+	
+}
+
+.footerclasse{
+	
+	background-color: #2A5B7C;
+	
+	
+}
+
+
+#footer
+{
+background-color: #575757;
+padding-top: 25px;
+margin-top: 20px;
+color: white;
+}
+
+    
+    
+html,body
+{
+height:100%;
+}
+
+
+#wrap
+{
+
+min-height: 100%;
+background-color: #3E78CC;
+border-radius: 5px;
+
+}
+
+#main
+{
+
+padding-bottom:-15px;
+}
+   
+   
+   
+   
+   
+   
+   body {
+    overflow: hidden;
+}
+
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+
+.typeahead-devs, .tt-hint {
+border: 2px solid #CCCCCC;
+border-radius: 8px 8px 8px 8px;
+font-size: 24px;
+height: 45px;
+line-height: 30px;
+outline: medium none;
+padding: 8px 12px;
+width: 400px;
+}
+
+.tt-dropdown-menu {
+width: 400px;
+margin-top: 5px;
+padding: 8px 12px;
+background-color: #fff;
+border: 1px solid #ccc;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 8px 8px 8px 8px;
+font-size: 18px;
+color: #111;
+background-color: #F1F1F1;
+}
+#facebooklike
+{
+color:white;
+}

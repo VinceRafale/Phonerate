@@ -1,0 +1,169 @@
+a:4:{s:4:"root";s:88:"/var/www/phonerate.dk/public_html/da/wp-content/themes/shaper_helix_ii/less/presets.less";s:8:"compiled";s:4334:".clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:not(.btn) {
+  color: #995900;
+}
+a:not(.btn):hover {
+  color: #ff9500;
+}
+body {
+  color: #333333;
+}
+body.bg {
+  background: #f2f2f2;
+}
+#sp-header-wrapper {
+  background-color: #f5f1ee;
+  background-image: -moz-linear-gradient(top,#ffffff,#e5ddd5);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#e5ddd5));
+  background-image: -webkit-linear-gradient(top,#ffffff,#e5ddd5);
+  background-image: -o-linear-gradient(top,#ffffff,#e5ddd5);
+  background-image: linear-gradient(to bottom,#ffffff,#e5ddd5);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe5ddd5', GradientType=0);
+}
+#sp-header-wrapper #logo {
+  background-image: url(../../images/presets/preset3/logo.png);
+}
+#sp-feature-wrapper {
+  background-color: #d67d00;
+  background-image: -moz-linear-gradient(top,#ff9500,#995900);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ff9500),to(#995900));
+  background-image: -webkit-linear-gradient(top,#ff9500,#995900);
+  background-image: -o-linear-gradient(top,#ff9500,#995900);
+  background-image: linear-gradient(to bottom,#ff9500,#995900);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff9500', endColorstr='#ff995900', GradientType=0);
+}
+#sp-feature-wrapper a:not(.btn) {
+  color: #ffbf66;
+}
+#sp-feature-wrapper a:not(.btn):hover {
+  color: #ffeacc;
+}
+.sp-widget.highlighted {
+  background: #cc7700;
+}
+.sp-widget.highlighted a:not(.btn) {
+  color: #ffaa33;
+}
+.sp-widget.highlighted a:not(.btn):hover {
+  color: #995900;
+}
+#sp-bottom-wrapper,
+#sp-footer-wrapper {
+  background: #663c00;
+  color: #fff;
+}
+#sp-bottom-wrapper h3,
+#sp-footer-wrapper h3 {
+  color: #fff;
+}
+#sp-bottom-wrapper a:not(.btn),
+#sp-footer-wrapper a:not(.btn) {
+  color: #ffaa33;
+}
+#sp-bottom-wrapper a:not(.btn):hover,
+#sp-footer-wrapper a:not(.btn):hover {
+  color: #ffd599;
+}
+#sp-footer-wrapper {
+  border-top: 1px solid #331e00;
+}
+#sp-footer-wrapper::after {
+  background: #8a5000;
+}
+.sp-border {
+  border-top: 1px solid #331e00;
+}
+.sp-border::after {
+  background: #8a5000;
+}
+.btn-primary,
+button,
+input[type='submit'],
+input[type='button'],
+submit {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #f6d900;
+  background-image: -moz-linear-gradient(top,#ffc000,#eaff00);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffc000),to(#eaff00));
+  background-image: -webkit-linear-gradient(top,#ffc000,#eaff00);
+  background-image: -o-linear-gradient(top,#ffc000,#eaff00);
+  background-image: linear-gradient(to bottom,#ffc000,#eaff00);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffbf00', endColorstr='#ffe9ff00', GradientType=0);
+  border-color: #eaff00 #eaff00 #a3b300;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  *background-color: #eaff00;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  color: #fff;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled],
+button:hover,
+button:active,
+button.active,
+button.disabled,
+button[disabled],
+input[type='submit']:hover,
+input[type='submit']:active,
+input[type='submit'].active,
+input[type='submit'].disabled,
+input[type='submit'][disabled],
+input[type='button']:hover,
+input[type='button']:active,
+input[type='button'].active,
+input[type='button'].disabled,
+input[type='button'][disabled],
+submit:hover,
+submit:active,
+submit.active,
+submit.disabled,
+submit[disabled] {
+  color: #fff;
+  background-color: #eaff00;
+  *background-color: #d2e600;
+}
+.btn-primary:active,
+.btn-primary.active,
+button:active,
+button.active,
+input[type='submit']:active,
+input[type='submit'].active,
+input[type='button']:active,
+input[type='button'].active,
+submit:active,
+submit.active {
+  background-color: #bbcc00 \9;
+}
+";s:5:"files";a:3:{s:88:"/var/www/phonerate.dk/public_html/da/wp-content/themes/shaper_helix_ii/less/presets.less";i:1377963127;s:90:"/var/www/phonerate.dk/public_html/da/wp-content/themes/shaper_helix_ii/less/variables.less";i:1377963127;s:87:"/var/www/phonerate.dk/public_html/da/wp-content/themes/shaper_helix_ii/less/mixins.less";i:1377963127;}s:7:"updated";i:1377963350;}

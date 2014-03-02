@@ -1,0 +1,26 @@
+body
+{
+background-color:#e5e5e5;
+}
+h1
+{
+
+}
+p
+{
+background-color:rgb(255,0,255);
+}
+table
+{
+
+}
+table,th, td
+{
+border: 1px solid black;
+padding: 23px 14px 14px 24px
+}
+h2
+{
+background-color:#ebf9ff;
+}
+	

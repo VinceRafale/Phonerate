@@ -1,0 +1,70 @@
+body{
+	
+ margin: 0;
+ padding: 0;	
+	
+}
+#wrapper
+{
+
+width:100%;
+height: 100%;
+margin: auto;
+z-index: 0;
+}
+
+.topmenu
+{
+background-color: #3291C6;
+width:100%;
+height:10%;
+float:top;
+
+   clear: both;
+   position: absolute;
+   z-index: 2;
+}
+
+.content
+{
+width:100%;
+height: 100%;
+background-color: #D6E9F4;
+position: absolute;
+z-index: 1;
+
+.contentmenu
+{
+
+
+
+}
+
+#findphone
+{
+margin-top: 300px;
+clear: both;
+width: 200px;
+height: 300px;
+background-color: black;
+position: absolute;
+z-index: 3;
+}
+
+.frontpagerating
+{
+
+
+}
+
+.bestrating
+{
+
+
+}
+
+.worstrating
+{
+
+}
+
